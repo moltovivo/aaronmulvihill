@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #c9d1d9;
+    background-color: #0d1117;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+header {
+    background: #161b22;
+    color: #c9d1d9;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #30363d 3px solid;
+}
+header a {
+    color: #c9d1d9;
+    text-decoration: none;
+    font-size: 16px;
+}
+header .branding {
+    float: left;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a {
+    color: #58a6ff;
+    font-weight: bold;
+}
+header a:hover {
+    color: #58a6ff;
+}
+.profile {
+    text-align: center;
+    padding: 20px 0;
+}
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.recent-posts {
+    margin-top: 30px;
+}
+.recent-posts h2 {
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 10px;
+}
+.post {
+    margin-bottom: 20px;
+}
+.post .title {
+    color: #58a6ff;
+}
+.post .date {
+    color: #8b949e;
+    font-size: 0.9em;
+}
